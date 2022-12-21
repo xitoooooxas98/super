@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css.css" rel="stylesheet" >
+    <title>Ele é</title>
+    <script type="text/javascript" src="js.js"></script>
+    <style>
+    p{ color:white; font-family:cursive; font-size:30px;
+     margin:auto; display:flex; justify-content:center;}
+
+        /*parte do sim */
+    @media screen and (max-width:768px){
+        a.Sim{
+            position:absolute;
+            top:300px; 
+            font-size:40px;
+            text-decoration:none;
+        }
+        a.Sim:link{
+            text-decoration:none;
+        }
+        
+
+    }
+
+    
+    /* aqui em baixo vai ser a parte do não :)*/
+    @media screen and (max-width:768px){
+
+        .Nao{ 
+            font-size:40px;
+            color:white;
+            padding:0px 0px;
+            cursor:pointer;
+            position:absolute;
+            right:20px;
+            top:300px;
+        }
+
+    }
+
+
+    </style>
+</head>
+
+        <body>
+    
+        <p class="creation">você é buteco???</p>
+
+        <a class="Sim" href="https://www.youtube.com/shorts/1SLjAo2gJzM">Sim</a>
+        <p class="Nao" onclick="Nao()" >Não</p>
+     
+
+
+    </body>
+
+</html>
